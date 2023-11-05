@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>案例3-拼图</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box1 {
+            width: 604px;
+            height: 454px;
+            margin: 0 auto;
+            border: 5px solid #aaa;
+            border-radius: 30px;
+        }
+
+        .box2 {
+            width: 604px;
+            height: 227px;
+            background-image: url(./imags/三/01.jpg), url(./imags/三/02.jpg), url(./imags/三/03.jpg);
+            background-repeat: no-repeat;
+            background-position: left, center, right;
+            border-radius: 30px 30px 0 0;
+        }
+
+        .box3 {
+            width: 604px;
+            height: 227px;
+            background-image: url(./imags/三/04.jpg), url(./imags/三/05.jpg), url(./imags/三/06.jpg);
+            background-repeat: no-repeat;
+            background-position: left, center, right;
+            border-radius: 0 0 30px 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>焦点轮播图</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        div {
+            position: relative;
+            width: 980px;
+            height: 200px;
+            margin: 100px auto;
+            /* background-color: pink; */
+        }
+        p{
+            /* font-size: 50px; */
+            color: #fff;
+        }
+        div .prev,div .next{
+            top: 50%;
+            margin-top: -25px;
+            width: 50px;
+            height: 50px;
+            font-size: 50px;
+            color: #fff;
+            border-radius: 25px;
+            background-color: rgba(255, 255, 255, .4);
+            text-align: center;
+            line-height: 45px;
+        }
+        div .prev{
+            left: 0;
+            position: absolute;
+
+        }
+        div .next{
+            right: 0;
+            position: absolute;
+        }
+        div ul{
+            position: absolute;
+            left: 50%;
+            bottom: 12px;
+            margin-left: -60px;
+            width: 120px;
+        }
+        li{
+            float: left;
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, .4);
+        }
+        .selected{
+            background-color: rgba(0, 0, 0, .5);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <a href="#" class="prev">&lt;</a>
+        <a href="#" class="next">&gt;</a>
+        <img src="../第10周/images/banner.jpg" alt="">
+        <ul>
+            <li></li>
+            <li class="selected"></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+
+</html>

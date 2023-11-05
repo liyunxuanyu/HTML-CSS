@@ -1,0 +1,16 @@
+.blue{
+    color: #00BFFF;
+}
+.family{
+    font-family: "楷体";
+}
+.red{
+    color: red;
+}
+.gray {
+    color: #778899;
+}
+
+.line-height li{
+    line-height: 35px;
+}

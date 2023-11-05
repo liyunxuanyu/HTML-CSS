@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>案例-唱吧导航栏</title>
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        ul,
+        li,
+        img,
+        p {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            border: 0;
+        }
+
+        body {
+            font: 14px "Arial", "宋体";
+            color: #FFF;
+        }
+
+        .div_all {
+            width: 952px;
+            height: 175px;
+            margin: 50px auto;
+            padding: 0 14px;
+            background-color: #F6F3E9;
+            border: 1px solid #CCC;
+        }
+
+        .div_all .text {
+            height: 50px;
+            line-height: 50px;
+            color: #A84848;
+        }
+
+        .div_all .text h2 {
+            width: 175px;
+            padding-left: 32px;
+            font-size: 16px;
+            float: left;
+            background: url(imags/4/iconh.png) no-repeat left center;
+        }
+
+        .div_all .text a {
+            /* display: inline-block; */
+            width: 60px;
+            padding-left: 25px;
+            float: right;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .text a:link,
+        .text a:visited {
+            color: #A84848;
+            text-decoration: none;
+            background: url(imags/4/play1.png) no-repeat left center;
+        }
+
+        .text a:hover {
+            color: #000;
+            background: url(imags/4/play2.png) no-repeat left center;
+        }
+
+        .ul_01 li {
+            width: 148px;
+            height: 105px;
+            float: left;
+            padding: 20px 0 0 90px;
+        }
+
+        .one {
+            background: #52A6B6 url(imags/4/icon1.png) no-repeat 15px 15px;
+        }
+
+        .one:hover {
+            background: #313131 url(imags/4/icon1.png) no-repeat 15px 15px;
+        }
+
+        .two {
+            background: #55B9B6 url(imags/4/icon2.png) no-repeat 15px 15px;
+        }
+
+        .two:hover {
+            background: #313131 url(imags/4/icon2.png) no-repeat 15px 15px;
+        }
+
+        .three {
+            background: #55BA7C url(imags/4/icon3.png) no-repeat 15px 15px;
+        }
+
+        .three:hover {
+            background: #313131 url(imags/4/icon3.png) no-repeat 15px 15px;
+        }
+
+        .four {
+            background: #A16580 url(imags/4/icon4.png) no-repeat 15px 15px;
+        }
+
+        .four:hover {
+            background: #313131 url(imags/4/icon4.png) no-repeat 15px 15px;
+        }
+
+        .one h2,
+        .two h2,
+        .three h2,
+        .four h2 {
+            font-size: 44px;
+        }
+
+        .one p,
+        .two p,
+        .three p,
+        .four p {
+            line-height: 22px;
+        }
+
+        .one a:link,
+        .one a:visited,
+        .two a:link,
+        .two a:visited,
+        .three a:link,
+        .three a:visited,
+        .four a:link,
+        .four a:visited {
+            color: #FFF;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div_all">
+        <div class="text">
+            <h2>MUSIC———精选歌单</h2>
+            <a href="#">连播本页</a>
+        </div>
+        <ul class="ul_01">
+            <li class="one">
+                <h2>Radio</h2>
+                <p>音乐达人</p>
+                <p><a href="#">随便听听</a></p>
+            </li>
+            <li class="two">
+                <h2>Song</h2>
+                <p>音乐达人</p>
+                <p><a href="#">最新单曲</a> </p>
+            </li>
+            <li class="three">
+                <h2>Album</h2>
+                <p>音乐达人</p>
+                <p><a href="#">音乐专辑</a></p>
+            </li>
+            <li class="four">
+                <h2>MV</h2>
+                <p>音乐达人</p>
+                <p><a href="#">劲爆MV</a></p>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

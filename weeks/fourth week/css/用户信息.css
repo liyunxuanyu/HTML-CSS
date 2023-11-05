@@ -1,0 +1,17 @@
+*{padding:0;margin: 0;}
+#div_all_01{
+    width: 150px;
+    height: 278px;
+    margin: 50px auto;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+#div_info_01 p{
+    width: 138px;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #2E3138;
+    margin-top: 2px;
+    padding-left: 10px;
+    
+}

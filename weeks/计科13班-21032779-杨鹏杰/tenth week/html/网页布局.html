@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网页布局</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .w {
+            width: 980px;
+            margin: 0 auto;
+        }
+
+        #top {
+            height: 40px;
+            background: url(../第10周/images/top.jpg)
+        }
+
+        #nav {
+            height: 60px;
+            background: url(../第10周/images/nav.jpg)
+        }
+
+        #banner {
+            height: 200px;
+            background: url(../第10周/images/banner.jpg)
+        }
+
+        #content {
+            height: 300px;
+        }
+
+        .content_left {
+            width: 200px;
+            height: 300px;
+            background-color: #CCC;
+            float: left;
+            margin: 0;
+            background: url(../第10周/images/content_left.jpg)
+        }
+
+        .content_middle {
+            width: 570px;
+            height: 300px;
+            background-color: #CCC;
+            float: left;
+            margin: 0 0 0 5px;
+            background: url(../第10周/images/content_middle.jpg)
+        }
+
+        .content_right {
+            width: 200px;
+            background-color: #CCC;
+            float: right;
+            height: 300px;
+            margin: 0;
+            background: url(../第10周/images/content_right.jpg)
+        }
+
+        #footer {
+            height: 90px;
+            background: url(../第10周/images/footer.jpg)
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top" class="w"></div>
+    <div id="nav" class="w"></div>
+    <div id="banner" class="w"></div>
+    <div id="content" class="w">
+        <div class="content_left w"></div>
+        <div class="content_middle w"></div>
+        <div class="content_right w"></div>
+    </div>
+    <div id="footer" class="w"></div>
+</body>
+
+</html>

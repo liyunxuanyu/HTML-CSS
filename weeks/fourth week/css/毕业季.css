@@ -1,0 +1,21 @@
+*{padding: 0; margin: 0;}
+#div_all_01 {
+    width: 210px;
+    height: 265px;
+    border: 1px solid #E1E1E1;
+    margin: 50px auto;
+    text-align: center;
+}
+#header{
+    font-size: 18px;
+    font-family: "微软雅黑";
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #E1E1E1;
+}
+#div_text_01 p{
+    font-size: 14px;
+    color: #CCC;
+    height: 24px;
+    line-height: 24px;
+}
